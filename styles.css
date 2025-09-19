@@ -1,0 +1,114 @@
+body{
+  text-align: center;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  background-color: #878E88;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 1rem;
+}
+
+nav a{
+  color:black
+}
+
+nav a:visited{
+  color:black;
+}
+
+nav a:hover{
+  color: white;
+}
+
+header{
+  padding-top: 10px;
+  border: 3px solid rgb(0, 0, 0);
+  margin: 0 auto;
+  margin-bottom: 30px;
+  display: grid;
+  width: 75%;
+  background-color: #96C0B7;
+}
+
+nav{
+  border-width: 3px;
+  border-color: black;
+  margin-top: 1rem;
+}
+
+a{
+  text-decoration: none;
+}
+
+.layout{
+  display: flex;
+  gap: 2rem;
+}
+
+.left,
+.right{
+  flex: 1;
+  margin-left: 50px;
+  margin-right: 50px;
+  padding: 1.5rem;
+  background-color: #D4DFC7;
+  width: 200px;
+  border: 3px solid rgb(0, 0, 0);
+}
+
+body .content{
+  text-align: left;
+}
+
+#selfie{
+  height: 400px;
+  width: 400px;
+  border: 3px solid black;
+}
+
+hr{
+  border: 1px solid black;
+}
+
+p{
+  font-size: 25px;
+}
+
+li{
+  font-size: 25px;
+}
+
+footer{
+  padding-top: 10px;
+  border: 3px solid rgb(0, 0, 0);
+  margin: 0 auto;
+  margin-bottom: 30px;
+  margin-top: 30px;
+  display: grid;
+  width: 75%;
+  background-color: #96C0B7;
+  text-align: center;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* the css for my project buttons was templated with chatgpt */
+
+.project-button {
+    display: inline-block;
+    padding: 10px 15px;
+    margin: 5px 0;
+    background-color: #4CAF50; 
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 8px;
+    text-align: center;
+    transition: background-color 0.3s;
+}
+
+.project-button:hover {
+    background-color: #45a049; 
+}
