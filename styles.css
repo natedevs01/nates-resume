@@ -101,7 +101,7 @@ img {
     padding: 10px 15px;
     margin: 5px 0;
     background-color: #4CAF50; 
-    color: white;
+    color: black;
     text-decoration: none;
     font-weight: bold;
     border-radius: 8px;
@@ -111,4 +111,5 @@ img {
 
 .project-button:hover {
     background-color: #45a049; 
+
 }
